@@ -1,0 +1,27 @@
+  - title: НОВОСТИ
+    url: /news
+  - title: ПАЦИЕНТАМ
+    url: /#
+    sub:
+      - title: Test1
+        url: /test1
+      - title: Test2
+        url: /test2
+  - title: Информация для пациентов
+    url: /articles/
+  - title: Банк документов
+    url: /doc/
+  - title: Структура центра
+    url: /structure/
+  - title: Платные услуги
+    url: /technical-details/
+  - title: О нас
+    url: /about/
+  - title: Задать вопрос
+    url: /about/
+  # - title: Setup
+  #   url: /theme-setup/
+  # - title: T-Details
+  #   url: /technical-details/
+  # - title: The Evil-Genius
+  #   url: http://www.theevilgenius.tk/

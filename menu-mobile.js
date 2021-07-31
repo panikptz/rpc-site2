@@ -1,5 +1,5 @@
 var menu = new MmenuLight(
-	document.querySelector('#menu'),
+	document.querySelector('#menu-mobile'),
 	'all'
 );
 var navigator = menu.navigation({
@@ -12,7 +12,7 @@ var drawer = menu.offcanvas({
 	// position: 'left'
 });
 //	Open the menu.
-document.querySelector('a[href="#menu"]')
+document.querySelector('a[href="#menu-mobile"]')
 	.addEventListener('click', evnt => {
 		evnt.preventDefault();
 		drawer.open();

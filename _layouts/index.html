@@ -12,11 +12,13 @@
 
     <link  type="text/css" rel="stylesheet" href="index.css" />
     <link  type="text/css" rel="stylesheet" href="component.css" />
-    <!-- <link  type="text/css" rel="stylesheet" href="mmenu-light.css" /> -->
+    <link  type="text/css" rel="stylesheet" href="mmenu-light.css" />
+    <link  type="text/css" rel="stylesheet" href="menu-mobile.css" />
 </head>
-<title>Example</title>
 <body>
     <header id="pageHeader">
+        <a href="#menu-mobile" class="menu-mobile"><span></span></a>
+        {% include _navigation-mobile.html %}
         <a href="{{ site.url }}">
         <div class="logo"><img src="./uploads/logo.png" /></div>
         <div class="name">ГБУЗ Республики Карелия<br>«Республиканский Перинатальный Центр»</div>
@@ -40,10 +42,10 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="mmenu-light.js"></script> -->
+    <script type="text/javascript" src="mmenu-light.js"></script>
     <!-- https://github.com/codrops/Blueprint-HorizontalDropDownMenu -->
     <script type="text/javascript" src="cbpHorizontalMenu.min.js"></script>
-    <!-- <script type="text/javascript" src="menu-mobile.js"></script> -->
+    <script type="text/javascript" src="menu-mobile.js"></script>
     
     <script>
         $(function() {

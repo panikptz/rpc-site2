@@ -12,13 +12,94 @@
 
     <link  type="text/css" rel="stylesheet" href="index.css" />
     <link  type="text/css" rel="stylesheet" href="component.css" />
-    <!-- <link  type="text/css" rel="stylesheet" href="mmenu-light.css" /> -->
+    <link  type="text/css" rel="stylesheet" href="mmenu-light.css" />
+    <link  type="text/css" rel="stylesheet" href="menu-mobile.css" />
 </head>
-<title>Example</title>
 <body>
     <header id="pageHeader">
+        <a href="#menu-mobile" class="menu-mobile"><span></span></a>
+            <nav id="menu-mobile">
+            <ul>
+                <!-- 1st level -->
+                
+				<li>
+                    
+                    <a href="/news">НОВОСТИ</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    <span>ПАЦИЕНТАМ</span>
+                
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/test1">Test1</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/test2">Test2</a>
+                                </li>
+                                
+                            </ul>
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/articles/">Информация для пациентов</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/doc/">Банк документов</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/structure/">Структура центра</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/technical-details/">Платные услуги</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/about/">О нас</a>
+                    
+                
+                </li>
+                
+                
+				<li>
+                    
+                    <a href="/about/">Задать вопрос</a>
+                    
+                
+                </li>
+                
+                
+            </ul>
+    </nav>
         <a href="http://192.168.15.143:4000">
-        <div class="logo"><img src="/uploads/logo.png" /></div>
+        <div class="logo"><img src="./uploads/logo.png" /></div>
         <div class="name">ГБУЗ Республики Карелия<br>«Республиканский Перинатальный Центр»</div>
         </a>
     </header>
@@ -29,15 +110,13 @@
                 <!-- 1st level -->
                 
 				<li >
-                    <a href="/news">НОВОСТИ
-                    </a>
+                    <a href="/news">НОВОСТИ</a>
                 
                 </li>
                 
                 
 				<li class="has-child">
-                    <a href="/#">ПАЦИЕНТАМ
-                    <span class="caret"></span></a>
+                    <a href="/#">ПАЦИЕНТАМ<span class="caret"></span></a>
                 
                 <div class="cbp-hrsub">
                     <div class="cbp-hrsub-inner"> 
@@ -61,43 +140,37 @@
                 
                 
 				<li >
-                    <a href="/articles/">Информация для пациентов
-                    </a>
+                    <a href="/articles/">Информация для пациентов</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/doc/">Банк документов
-                    </a>
+                    <a href="/doc/">Банк документов</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/structure/">Структура центра
-                    </a>
+                    <a href="/structure/">Структура центра</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/technical-details/">Платные услуги
-                    </a>
+                    <a href="/technical-details/">Платные услуги</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/about/">О нас
-                    </a>
+                    <a href="/about/">О нас</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/about/">Задать вопрос
-                    </a>
+                    <a href="/about/">Задать вопрос</a>
                 
                 </li>
                 
@@ -122,10 +195,10 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="mmenu-light.js"></script> -->
+    <script type="text/javascript" src="mmenu-light.js"></script>
     <!-- https://github.com/codrops/Blueprint-HorizontalDropDownMenu -->
     <script type="text/javascript" src="cbpHorizontalMenu.min.js"></script>
-    <!-- <script type="text/javascript" src="menu-mobile.js"></script> -->
+    <script type="text/javascript" src="menu-mobile.js"></script>
     
     <script>
         $(function() {

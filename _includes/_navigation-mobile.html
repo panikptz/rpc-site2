@@ -1,14 +1,12 @@
-<div class="main">
-    <nav id="cbp-hrmenu" class="cbp-hrmenu">
+    <nav id="menu-mobile">
             <ul>
                 <!-- 1st level -->
                 {% for link in site.data.navigation %}
-				<li {% if link.sub != null %}class="has-child"{% endif %}>
-                    <a href="{{ link.url }}">{{ link.title }}{% if link.sub != null %}<span class="caret"></span>{% endif %}</a>
+				<li>
+                    {% if link.sub != null %}<span>{{ link.title }}</span>{% else %}
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                    {% endif %}
                 {% if link.sub != null %}
-                <div class="cbp-hrsub">
-                    <div class="cbp-hrsub-inner"> 
-                        <div>
                             <ul>
                                 <!-- 2nd level -->
                                 {% for sub in link.sub %}
@@ -17,15 +15,10 @@
                                 </li>
                                 {% endfor %}
                             </ul>
-                        </div>
-                    </div>
-                </div>
                 </li>
                 {% else %}
                 </li>
                 {% endif %}
                 {% endfor %}
             </ul>
-            
     </nav>
-</div>

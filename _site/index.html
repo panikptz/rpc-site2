@@ -13,25 +13,60 @@
     <link  type="text/css" rel="stylesheet" href="index.css" />
     <link  type="text/css" rel="stylesheet" href="component.css" />
     <link  type="text/css" rel="stylesheet" href="mmenu-light.css" />
-    <link  type="text/css" rel="stylesheet" href="menu-mobile.css" />
+
 </head>
 <body>
     <header id="pageHeader">
-        <a href="#menu-mobile" class="menu-mobile"><span></span></a>
-            <nav id="menu-mobile">
+        <div class="menu-mobile-button"><a href="#menu-mobile" class="menu-mobile"><span></span></a></div>
+            <div id="menu-mobile-container">
+    <nav id="menu-mobile">
             <ul>
                 <!-- 1st level -->
                 
 				<li>
-                    
-                    <a href="/news">НОВОСТИ</a>
-                    
+                    <span>О НАС</span>
                 
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/about">О ЦЕНТРЕ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/administraciya">АДМИНИСТРАЦИЯ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/news">НОВОСТИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/staff">СПЕЦИАЛИСТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/documents">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/documents">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/gallery">ФОТОГАЛЕРЕЯ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/vacansies">ВАКАНСИИ</a>
+                                </li>
+                                
+                            </ul>
                 </li>
                 
                 
 				<li>
-                    <span>ПАЦИЕНТАМ</span>
+                    <span>СТРУКТУРА ЦЕНТРА</span>
                 
                             <ul>
                                 <!-- 2nd level -->
@@ -49,8 +84,72 @@
                 
                 
 				<li>
+                    <span>ПЛАТНЫЕ УСЛУГИ</span>
+                
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ПЛАТНЫЕ УСЛУГИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ПРАЙС-ЛИСТ</a>
+                                </li>
+                                
+                            </ul>
+                </li>
+                
+                
+				<li>
+                    <span>ПАЦИЕНТАМ</span>
+                
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ЭТО ДОЛЖНЫ ЗНАТЬ МАМЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ШКОЛА ПОДГОТОВКИ К РОДАМ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКАЯ СЛУЖБА</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ГРУДНОЕ ВСКАРМЛИВАНИЕ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ГОСУДАРСТВЕННАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">НОК</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ЭЛЕКТРОННАЯ ЗАПИСЬ НА ПРИЕМ К ВРАЧАМ</a>
+                                </li>
+                                
+                            </ul>
+                </li>
+                
+                
+				<li>
                     
-                    <a href="/articles/">Информация для пациентов</a>
+                    <a href="/contacts">КОНТАКТЫ</a>
                     
                 
                 </li>
@@ -58,39 +157,7 @@
                 
 				<li>
                     
-                    <a href="/doc/">Банк документов</a>
-                    
-                
-                </li>
-                
-                
-				<li>
-                    
-                    <a href="/structure/">Структура центра</a>
-                    
-                
-                </li>
-                
-                
-				<li>
-                    
-                    <a href="/technical-details/">Платные услуги</a>
-                    
-                
-                </li>
-                
-                
-				<li>
-                    
-                    <a href="/about/">О нас</a>
-                    
-                
-                </li>
-                
-                
-				<li>
-                    
-                    <a href="/about/">Задать вопрос</a>
+                    <a href="/about/">ЗАДАТЬ ВОПРОС</a>
                     
                 
                 </li>
@@ -98,9 +165,11 @@
                 
             </ul>
     </nav>
+    </div>
         <a href="http://192.168.15.143:4000">
         <div class="logo"><img src="./uploads/logo.png" /></div>
         <div class="name">ГБУЗ Республики Карелия<br>«Республиканский Перинатальный Центр»</div>
+        <div class="name-small">Карельский<br>перинатальный центр</div>
         </a>
     </header>
     <div id="menu">
@@ -109,14 +178,56 @@
             <ul>
                 <!-- 1st level -->
                 
-				<li >
-                    <a href="/news">НОВОСТИ</a>
+				<li class="has-child">
+                    <a href="/#">О НАС<span class="caret"></span></a>
                 
+                <div class="cbp-hrsub">
+                    <div class="cbp-hrsub-inner"> 
+                        <div>
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/about">О ЦЕНТРЕ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/administraciya">АДМИНИСТРАЦИЯ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/news">НОВОСТИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/staff">СПЕЦИАЛИСТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/documents">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/documents">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/gallery">ФОТОГАЛЕРЕЯ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/vacansies">ВАКАНСИИ</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 </li>
                 
                 
 				<li class="has-child">
-                    <a href="/#">ПАЦИЕНТАМ<span class="caret"></span></a>
+                    <a href="/structure">СТРУКТУРА ЦЕНТРА<span class="caret"></span></a>
                 
                 <div class="cbp-hrsub">
                     <div class="cbp-hrsub-inner"> 
@@ -139,38 +250,90 @@
                 </li>
                 
                 
+				<li class="has-child">
+                    <a href="/#">ПЛАТНЫЕ УСЛУГИ<span class="caret"></span></a>
+                
+                <div class="cbp-hrsub">
+                    <div class="cbp-hrsub-inner"> 
+                        <div>
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ПЛАТНЫЕ УСЛУГИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ПРАЙС-ЛИСТ</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                
+                
+				<li class="has-child">
+                    <a href="/#">ПАЦИЕНТАМ<span class="caret"></span></a>
+                
+                <div class="cbp-hrsub">
+                    <div class="cbp-hrsub-inner"> 
+                        <div>
+                            <ul>
+                                <!-- 2nd level -->
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">НОРМАТИВНЫЕ ДОКУМЕНТЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ЭТО ДОЛЖНЫ ЗНАТЬ МАМЫ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ШКОЛА ПОДГОТОВКИ К РОДАМ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКАЯ СЛУЖБА</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">ГРУДНОЕ ВСКАРМЛИВАНИЕ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ГОСУДАРСТВЕННАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/platnye-uslugi">НОК</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="http://192.168.15.143:4000/price-list">ЭЛЕКТРОННАЯ ЗАПИСЬ НА ПРИЕМ К ВРАЧАМ</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </li>
+                
+                
 				<li >
-                    <a href="/articles/">Информация для пациентов</a>
+                    <a href="/contacts">КОНТАКТЫ</a>
                 
                 </li>
                 
                 
 				<li >
-                    <a href="/doc/">Банк документов</a>
-                
-                </li>
-                
-                
-				<li >
-                    <a href="/structure/">Структура центра</a>
-                
-                </li>
-                
-                
-				<li >
-                    <a href="/technical-details/">Платные услуги</a>
-                
-                </li>
-                
-                
-				<li >
-                    <a href="/about/">О нас</a>
-                
-                </li>
-                
-                
-				<li >
-                    <a href="/about/">Задать вопрос</a>
+                    <a href="/about/">ЗАДАТЬ ВОПРОС</a>
                 
                 </li>
                 

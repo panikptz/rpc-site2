@@ -2,6 +2,9 @@
 @font-face { font-family: 'Kube'; src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype"); font-weight: normal; font-style: normal; }
 body { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'Kube' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+html{
+  font-size: 16px;
+}
 
 body { 
     display: grid;
@@ -18,115 +21,214 @@ body {
     height: 100vh;
     margin: 0 auto;
     max-width: 1366px;
-    }  
-  /* Stack the layout on small devices/viewports. */
-  @media all and (max-width: 675px) {
-    body { 
-      grid-template-areas: 
-        "header"
-        "vitrina"
-        /* "nav" */
-        "article"
-        /* "ads" */
-        "footer";
-      grid-template-rows: 80px 140px 1fr 70px;  
-      grid-template-columns: 1fr;
-   }
-   #siteAds{
-       display: none;
-   }
-   header, footer, article, #siteAds {
-    padding: 0.5em;
-    background: #ffa;
     }
 
-    #menu{
+
+    header .name, header .name-small{
+      /* font-size: 1.1vw; */
+      text-transform: uppercase;
+      font-family: "xo_caliburnregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #000;
+    }
+
+    header .name{
       display: none;
     }
-    a.menu-mobile{
+
+    header .name-small{
       display: block;
+      position: relative;
+    left: 1.6rem;
+    top: 0.5rem;
+    float: left;
+    font-size: 1.1rem;
+    line-height: 1.2;
     }
-    header .logo, header .name{
-      float: right;
+
+    header .logo img{
+      max-width: 100%;
     }
-    header .name {
-      margin: 1rem;
+    
+    
+    #vitrina{
+      padding: 0em;
+      /* width: 100%;
+      height: 0px;
+      padding-bottom: 21.96%; */
+      background: url(./uploads/rpc-vitrina.jpg) no-repeat center;
+      background-size: cover;
     }
+    
+    
+    
+    
+      #pageHeader {
+        grid-area: header;
+        }
+      #menu{
+        grid-area: menu;
+        }
+      #vitrina{
+        grid-area: vitrina;
+      }
+      #pageFooter {
+        grid-area: footer;
+        }
+      #mainArticle { 
+        grid-area: article;      
+        }
+      #siteAds { 
+        grid-area: ads; 
+        } 
+    
+      .menu, #menu-mobile-container{
+        display: none;
+      }
+
+      div.menu-mobile-button{
+        float: right;
+        display: block;
+        position: relative;
+      }
+
+      a.menu-mobile {
+        width: 28px;
+        height: 18px;
+        padding: 11px;
+        margin: 5px;
+        position: absolute;
+        top: 0;
+        left: -3.2rem;
+    }
+    
+    a.menu-mobile:before, a.menu-mobile:after {
+        content: '';
+        display: block;
+        background: #000;
+        height: 2px;
+    }
+    
+    a.menu-mobile span {
+        background: #000;
+        display: block;
+        height: 2px;
+        margin: 6px 0;
+    }
+
+
+@media all and (min-width: 676px) {
+  header, #menu, #vitrina, footer, article, #siteAds {
+      padding: 1.2em;
+      /* background: #ffa; */
+      }
+      
+  #menu{
+      padding: 0em;
+      background: #2196f3;
+      }
+
+  header{
+    padding: 0em;
+  }
+  header a {
+    text-decoration: none;
+  }
+  header a:hover .name {
+    color: #ff9800;
+  }
+  header .logo{
+    left: 30px;
+    position: relative;
+    top: 0.8rem;
+    float: left;
+  }
+  header .name{
+    display: block;
+    position: relative;
+    left: 3rem;
+    top: 1.5rem;
+    float: left;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  div.menu-mobile-button, header .name-small{
+    display: none;
+  }
+}
+
+
+
+  @media all and (max-width: 511px) {
+    
+    header .name{
+      /* font-size: 90%; */
+    }
+
   }
 
-  @media all and (min-width: 676px) {
-    header, #menu, #vitrina, footer, article, #siteAds {
-        padding: 1.2em;
-        background: #ffa;
-        }
-        
-    #menu{
-        padding: 0em;
-        background: #2196f3;
-        }
+  @media all and (max-width: 479px) {
+    
+    header .name{
+      /* font-size: 0.88rem; */
+    }
 
-    header{
-      padding: 0em;
+  }
+
+
+  @media all and (max-width: 471px) {
+    
+    header .name{
+      /* font-size: 0.83rem; */
     }
-    header a {
-      text-decoration: none;
-    }
-    header a:hover .name {
-      color: #ff9800;
+
+  }
+
+
+  @media all and (max-width: 395px) {
+    
+    header .name{
+      font-size: 0.68rem;
     }
     header .logo{
-      left: 30px;
-      position: relative;
-      top: 0.8rem;
-      float: left;
+      width: 3rem;
+     height: 3rem;
     }
-    header .name{
-      position: relative;
-      left: 3rem;
-      top: 1.5rem;
-      float: left;
-    }
-    a.menu-mobile{
-      display: none;
-    }
+    
   }
 
-  /* #pageHeader div#menu {
-    display: none;
-} */
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 675px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "vitrina"
+      /* "nav" */
+      "article"
+      /* "ads" */
+      "footer";
+    grid-template-rows: 80px 140px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+ #siteAds{
+     display: none;
+ }
+ header, footer, article, #siteAds {
+  padding: 0.5em;
+  /* background: #ffa; */
+  }
 
-
-header .name{
-  font-size: 100%;
-  text-transform: uppercase;
-  font-family: "xo_caliburnregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
-#vitrina{
-  padding: 0em;
-  /* width: 100%;
-  height: 0px;
-  padding-bottom: 21.96%; */
-  background: url(./uploads/rpc-vitrina.jpg) no-repeat center;
-  background-size: cover;
-}
-
-
-  #pageHeader {
-    grid-area: header;
-    }
   #menu{
-    grid-area: menu;
-    }
-  #vitrina{
-    grid-area: vitrina;
+    display: none;
   }
-  #pageFooter {
-    grid-area: footer;
-    }
-  #mainArticle { 
-    grid-area: article;      
-    }
-  #siteAds { 
-    grid-area: ads; 
-    } 
+  a.menu-mobile{
+    display: block;
+  }
+  header .logo, header .name{
+    float: left;
+  }
+  header .name {
+    /* font-size: 1.5vw; */
+    margin: 1rem;
+  }
+}
+

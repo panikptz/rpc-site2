@@ -1,23 +1,60 @@
-  - title: НОВОСТИ
-    url: /news
-  - title: ПАЦИЕНТАМ
+  - title: О НАС
     url: /#
+    sub:
+      - title: О ЦЕНТРЕ
+        url: /about
+      - title: АДМИНИСТРАЦИЯ
+        url: /administraciya
+      - title: НОВОСТИ
+        url: /news
+      - title: СПЕЦИАЛИСТЫ
+        url: /staff
+      - title: НОРМАТИВНЫЕ ДОКУМЕНТЫ
+        url: /documents
+      - title: ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ
+        url: /documents
+      - title: ФОТОГАЛЕРЕЯ
+        url: /gallery
+      - title: ВАКАНСИИ
+        url: /vacansies
+  - title: СТРУКТУРА ЦЕНТРА
+    url: /structure
     sub:
       - title: Test1
         url: /test1
       - title: Test2
         url: /test2
-  - title: Информация для пациентов
-    url: /articles/
-  - title: Банк документов
-    url: /doc/
-  - title: Структура центра
-    url: /structure/
-  - title: Платные услуги
-    url: /technical-details/
-  - title: О нас
-    url: /about/
-  - title: Задать вопрос
+  - title: ПЛАТНЫЕ УСЛУГИ
+    url: /#
+    sub:
+      - title: ПЛАТНЫЕ УСЛУГИ
+        url: /platnye-uslugi
+      - title: ПРАЙС-ЛИСТ
+        url: /price-list
+  - title: ПАЦИЕНТАМ
+    url: /#
+    sub:
+      - title: НОРМАТИВНЫЕ ДОКУМЕНТЫ
+        url: /platnye-uslugi
+      - title: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ
+        url: /price-list
+      - title: ЭТО ДОЛЖНЫ ЗНАТЬ МАМЫ
+        url: /platnye-uslugi
+      - title: ШКОЛА ПОДГОТОВКИ К РОДАМ
+        url: /platnye-uslugi
+      - title: СОЦИАЛЬНО-ПСИХОЛОГИЧЕСКАЯ СЛУЖБА
+        url: /price-list
+      - title: ГРУДНОЕ ВСКАРМЛИВАНИЕ
+        url: /platnye-uslugi
+      - title: ГОСУДАРСТВЕННАЯ ПОДДЕРЖКА СЕМЕЙ С ДЕТЬМИ
+        url: /price-list
+      - title: НОК
+        url: /platnye-uslugi
+      - title: ЭЛЕКТРОННАЯ ЗАПИСЬ НА ПРИЕМ К ВРАЧАМ
+        url: /price-list
+  - title: КОНТАКТЫ
+    url: /contacts
+  - title: ЗАДАТЬ ВОПРОС
     url: /about/
   # - title: Setup
   #   url: /theme-setup/

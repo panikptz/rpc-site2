@@ -148,3 +148,7 @@
 .cbp-hrmenu .caret{
 	display: inline-block;
 }
+
+.cbp-hrmenu{
+	display: block;
+}
